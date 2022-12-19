@@ -1,0 +1,194 @@
+html, body {
+  height:100%;
+}
+body {
+  font-size: .875rem;
+}
+.form-signin {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.logout{
+  margin:5px;
+  padding-right: 5px;
+  text-align:right;
+  line-height: 1;
+  font-size:10.5pt;
+}
+.logout a:hover{
+  text-decoration: none;
+  color: red;
+}
+.table-borderless tr,
+.table-borderless td {
+    border: 0;
+}
+.alerterror {
+    padding: 20px;
+    background-color: #E53935;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.alertsuccess {
+    padding: 20px;
+    background-color: #43A047;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+.signup {
+  margin: auto;
+  width: 70%;
+}
+#printer {
+    display: inline-block;
+    background-color: transparent;
+    border: 0;
+}
+#printer:hover {
+    cursor: pointer;
+}
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+hr {
+  background-color: #2196f3;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.trlink:hover{
+  cursor: pointer;
+}
+
+input[type=text]:disabled {
+    background: #F8F9FA;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button{
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  height:20px;
+  color: rgba(0, 0, 0, 0);
+  opacity: 4;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  background: #BDBDBD;
+}
+
+.labelchk {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.labelchk input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+    right: 13px;
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+.labelchk:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.labelchk input:checked ~ .checkmark {
+    background-color: #007BFF;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.labelchk input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.labelchk .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 8px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+@media only screen and (max-width: 765px) {
+  .sam{
+    display: none;
+  }
+}
