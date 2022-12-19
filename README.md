@@ -4,4 +4,5 @@ Dibuat pada tahun 2018 dengan cara "tradisional" menggunakan Bootstrap v4.1.0 se
 
 ![Screenshot_1](https://user-images.githubusercontent.com/95736572/208334199-f402b038-2283-4b5e-a4cb-f0b22432a8fe.png)
 
-![image](https://user-images.githubusercontent.com/95736572/208334445-1656054d-f700-4ec3-85a2-bcd452554f27.png)
+![image](https://user-images.githubusercontent.com/95736572/208335573-a28ef51c-d22b-4001-a454-1ababdac909f.png)
+
